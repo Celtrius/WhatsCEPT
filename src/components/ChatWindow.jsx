@@ -59,7 +59,7 @@ export default function ChatWindow({
       {/* Modal for Chat Settings */}
       <div
         id="hs-basic-modal"
-        className="hs-overlay hidden fixed inset-0 z-[60] flex items-center justify-center bg-black/50"
+        className="hs-overlay hidden fixed inset-0 z-[60] flex items-center justify-center bg-black/51"
         role="dialog"
         tabIndex="-1"
         aria-labelledby="hs-basic-modal-label"
