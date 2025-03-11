@@ -125,7 +125,7 @@ export default function StartScreen({ handleFileUpload }) {
         rel="noopener noreferrer"
         className="absolute bottom-5 text-[#DDDDDD] hover:text-[#A855F7] transition text-sm"
       >
-        🌟 View on GitHub
+        🌟 Made by Celtrius | View on GitHub
       </a>
     </div>
   );
