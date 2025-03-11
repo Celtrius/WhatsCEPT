@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "add-domain": "echo \"chatpreviewer.celtrius.net\" > dist/CNAME",
+    "add-domain": "echo \"chatpreview.celtrius.net\" > dist/CNAME",
     "deploy": "npm run add-domain && gh-pages -d dist",
-    "bd": "npm run build && npm run deploy"
+    "finish": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.6.13",
