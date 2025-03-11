@@ -18,7 +18,10 @@ jobs:
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
-
+      - name: Preserve CNAME file (if exists)
+        run: |
+          FQDN="chatpreviewer.celtrius.net"  # Replace with your actual domain
+          echo "$FQDN" > CNAME  # Write FQDN to CNAME file
       - name: Deploy only dist folder
         run: |
           # Create a new orphan branch
@@ -29,6 +32,9 @@ jobs:
           git checkout main -- dist
           mv dist/* .
           rm -r dist
+
+          # Restore CNAME file
+          echo "$FQDN" > CNAME  # Ensure CNAME is always correct
 
           # Commit changes
           git add .
