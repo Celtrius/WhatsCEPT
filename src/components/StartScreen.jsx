@@ -123,7 +123,7 @@ export default function StartScreen({ handleFileUpload }) {
         href="https://github.com/Celtrius/Whatsapp-Chat-Export-Preview"
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute bottom-5 -z-10 text-[#DDDDDD] hover:text-[#A855F7] transition text-sm"
+        className="absolute bottom-5 text-[#DDDDDD] hover:text-[#A855F7] transition text-sm"
       >
         🌟 View on GitHub
       </a>
