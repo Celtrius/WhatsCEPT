@@ -2,8 +2,8 @@ name: Deploy dist folder to deploy branch
 
 on:
   push:
-    branches:
-      - main # Trigger when pushing to main
+  #    branches:
+  #      - main # Trigger when pushing to main
   workflow_dispatch: # Trigger manually
 
 jobs:
