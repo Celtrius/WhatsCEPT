@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "add-domain": "echo \"chatpreviewer.celtrius.net\" > dist/CNAME",
     "preview": "vite preview"
   },
   "dependencies": {
