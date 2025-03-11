@@ -1,4 +1,4 @@
-# WhatsApp Chat Export Preview
+# WhatsCEPT: WhatsApp Chat Export Preview
 
 🚀 Preview WhatsApp chat exports (.zip files) directly in your browser!
 
