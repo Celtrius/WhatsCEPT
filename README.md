@@ -1,6 +1,7 @@
 # WhatsCEPT: WhatsApp Chat Export Preview Tool
 
 🚀 Preview WhatsApp chat exports (.zip files) directly in your browser!
+Please note that this is pretty much a vibe coding project and not really optimized.
 
 ## 🔍 Overview
 
